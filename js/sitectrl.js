@@ -15,4 +15,10 @@ app.controller('SiteController', [ '$location', '$scope', '$animate', function($
   $scope.setred = function() {
     $scope.textType = 'red';
   }
+  $scope.makeshow = function() {
+    $scope.hideorshow = true;
+  }
+  $scope.makehide = function() {
+    $scope.hideorshow = false;
+  }
 }]);

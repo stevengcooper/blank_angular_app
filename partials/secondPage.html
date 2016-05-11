@@ -3,9 +3,16 @@
 <button ng-click="setblue()">blue</button>
 <button ng-click="setgreen()">green</button>
 <button ng-click="setred()">red</button>
+<button ng-click="makeshow()">Show</button>
+<button ng-click="makehide()">Hide</button>
   <div class="row">
     <div class="col-sm-12">
       <h1 ng-class="textType">Welcome to the second page!</h1>
   </div>
 </div>
+  <div class="col-sm-12">
+    <div ng-show="hideorshow">
+      <h1>These can disapear if you feel like it</h1>
+    </div>
+  </div>
 </div>
